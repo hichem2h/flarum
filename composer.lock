@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "9b2a64e7d7373df066272a370e3c8b06",
+    "content-hash": "1bce73b1b75e0731d21bfc11d1f55efa",
     "packages": [
         {
             "name": "components/font-awesome",
@@ -2825,6 +2825,49 @@
             "description": "A Base Security Library",
             "homepage": "https://github.com/ircmaxell/SecurityLib",
             "time": "2015-03-20T14:31:23+00:00"
+        },
+        {
+            "name": "lb308/flarum-ext-arabic",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lb308/flarum-ext-arabic.git",
+                "reference": "40b37c1736dfed8c582b94776ad56742ab783b65"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lb308/flarum-ext-arabic/zipball/40b37c1736dfed8c582b94776ad56742ab783b65",
+                "reference": "40b37c1736dfed8c582b94776ad56742ab783b65",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.7"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "العربية",
+                    "icon": {
+                        "image": "icon.png",
+                        "backgroundColor": "#00247d",
+                        "backgroundSize": "cover",
+                        "backgroundPosition": "center"
+                    }
+                },
+                "flarum-locale": {
+                    "code": "ar",
+                    "title": "العربية"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "اللغة العربية",
+            "keywords": [
+                "locale"
+            ],
+            "time": "2018-03-25T19:55:24+00:00"
         },
         {
             "name": "league/flysystem",

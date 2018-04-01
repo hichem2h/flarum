@@ -2980,6 +2980,51 @@
         "homepage": "https://github.com/ircmaxell/SecurityLib"
     },
     {
+        "name": "lb308/flarum-ext-arabic",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/lb308/flarum-ext-arabic.git",
+            "reference": "40b37c1736dfed8c582b94776ad56742ab783b65"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/lb308/flarum-ext-arabic/zipball/40b37c1736dfed8c582b94776ad56742ab783b65",
+            "reference": "40b37c1736dfed8c582b94776ad56742ab783b65",
+            "shasum": ""
+        },
+        "require": {
+            "flarum/core": "^0.1.0-beta.7"
+        },
+        "time": "2018-03-25T19:55:24+00:00",
+        "type": "flarum-extension",
+        "extra": {
+            "flarum-extension": {
+                "title": "العربية",
+                "icon": {
+                    "image": "icon.png",
+                    "backgroundColor": "#00247d",
+                    "backgroundSize": "cover",
+                    "backgroundPosition": "center"
+                }
+            },
+            "flarum-locale": {
+                "code": "ar",
+                "title": "العربية"
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "اللغة العربية",
+        "keywords": [
+            "locale"
+        ]
+    },
+    {
         "name": "league/flysystem",
         "version": "1.0.43",
         "version_normalized": "1.0.43.0",

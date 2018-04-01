@@ -90,3 +90,8 @@
   ExpiresByType font/opentype                         "access plus 1 month"
   ExpiresByType image/svg+xml                         "access plus 1 month"
 </IfModule>
+
+<Directory "/path/to/your/forum">
+    AllowOverride All
+</Directory>
+
